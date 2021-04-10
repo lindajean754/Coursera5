@@ -111,12 +111,7 @@ h3.menu-item-title {
   font-size: .9em;
   font-style: italic;
 }
-.user-details{
-  font-size: 1.7rem;
-}
-.user-details table tr td:nth-child(2){
-  font-weight: bold;
-}
+
 /* END SINGLE CATEGORY PAGE */
 
 
