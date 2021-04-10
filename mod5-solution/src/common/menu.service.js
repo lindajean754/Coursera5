@@ -8,14 +8,14 @@ angular.module('common')
 MenuService.$inject = ['$http', 'ApiPath'];
 function MenuService($http, ApiPath) {
   var service = this;
-  service.user ={};
+  service.user = {};
 
   service.saveUser = function(user) {
     service.user = angular.copy(user);
     console.log(service.user);
   }
 
-  service.getuser = function() {
+  service.getUser = function() {
     return service.user;
   }
 
